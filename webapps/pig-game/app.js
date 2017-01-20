@@ -127,7 +127,6 @@ function setup(){
 //initialize game
 function init(){
     document.querySelector(".win-score").disabled = false;
-    document.querySelector(".win-score").value = "set win score";
     gamePlaying = true;
     roundscore = 0;
     activePlayer = 0;
